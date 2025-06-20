@@ -34,9 +34,11 @@ git clone https://github.com/Nurkhan-Bakhitzhan/dnd_worldweave.git
 2. Запусти backend
 - cd backend
 - npm install
-- npx prisma generate
+- npx prisma generate перед миграцией нужно запустить БД!!! и в .env указать DATABASE_URL="postgresql://dnduser:dndpass@localhost:5432/dnddb" 
 - npx prisma migrate dev
 - npm run dev
+![image](https://github.com/user-attachments/assets/be01d811-e47c-4948-b7c5-7354ae9a32b0)
+
 
 Убедись, что у тебя настроены .env переменные, включая DATABASE_URL
 
@@ -44,6 +46,13 @@ git clone https://github.com/Nurkhan-Bakhitzhan/dnd_worldweave.git
 - cd frontend
 - npm install
 - npm run dev
+
+##Локальный запуск БД
+Для его запуска нужен docker-dekstop
+в папке где находится файл docker-compose.yml нужно вписать команду docker-compose up
+тогда в docker-compose запустится контейнер что будет играть роль бд
+![image](https://github.com/user-attachments/assets/7fa1cf81-ffd5-41c0-b56f-ac30b512c4f5)
+
 
 ##📸 Скриншоты
 ![image](https://github.com/user-attachments/assets/f8bfe45c-b1f0-4357-a67a-18bc48ec34db)
