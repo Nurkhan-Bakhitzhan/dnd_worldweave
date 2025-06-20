@@ -32,20 +32,20 @@
 git clone https://github.com/Nurkhan-Bakhitzhan/dnd_worldweave.git
 
 2. Запусти backend
-cd backend
-npm install
-npx prisma generate
-npx prisma migrate dev
-npm run dev
+- cd backend
+- npm install
+- npx prisma generate
+- npx prisma migrate dev
+- npm run dev
 
 Убедись, что у тебя настроены .env переменные, включая DATABASE_URL
 
 3. Запуск клиента (frontend)
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 
-📸 Скриншоты
+##📸 Скриншоты
 ![image](https://github.com/user-attachments/assets/f8bfe45c-b1f0-4357-a67a-18bc48ec34db)
 ![image](https://github.com/user-attachments/assets/7702823d-8647-4541-802d-53b22fd82799)
 ![image](https://github.com/user-attachments/assets/7ef480c5-bb48-4eeb-884b-70a2b9634b35)
@@ -54,5 +54,5 @@ npm run dev
 ![image](https://github.com/user-attachments/assets/825d504a-1118-41bf-8484-900262435844)
 
 
-📚 Контекст проекта
+##📚 Контекст проекта
 Этот проект разработан как часть дипломной работы. Его цель — создать базовый, но гибкий инструмент для проведения DnD-сессий без лишней сложности, с фокусом на взаимодействие между людьми, а не автоматизацию боя.  
